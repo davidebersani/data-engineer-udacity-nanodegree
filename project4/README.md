@@ -116,7 +116,7 @@ The ETL pipeline, in this case, is a Spark job that reads all the json files (so
 ### 1. Config file
 Fill the `dl.cfg` file with the correct informations.
 
-## 2. Choose input source
+### 2. Choose input source
 In the etl.py script, make sure to select the right input for you. In the main function there are two pairs of dicts: one is for local data and another is for S3 data.
 
 ## Purpose of the database
